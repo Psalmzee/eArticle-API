@@ -17,8 +17,8 @@
 </div>
 # WeBlog
 
-## Backend NodeJS Second Semester Examination Project
-#### A blogging-API built in partial fulfilment of the Altschool of Engineering focused in Backend Engineering (NodeJS) Second Semester Requirement by <a href="https://www.github.com/psalmzee">psalmzee</a>, a Backend Engineering student at <a href="https://altschoolafrica.com/schools/engineering">AltSchool Africa</a>.
+## Backend API
+#### A blogging-API <a href="https://www.github.com/psalmzee">psalmzee</a>, of a Backend Engineering student at <a href="https://altschoolafrica.com/schools/engineering">AltSchool Africa</a>.
 
 
 ##### Tools/Languages
