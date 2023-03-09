@@ -1,4 +1,4 @@
-const CONFIG = require('./config/config')
+// const CONFIG = require('./config/config')
 const express = require('express')
 const errorHandler = require('./middleware/errorHandler')
 const unknownEndpoint = require('./middleware/unknownEndpoint')
@@ -11,7 +11,7 @@ const { requestLogger } = require('./utils/logger')
 const app = express()
 
 // connect to db
-require('./middleware/db')(CONFIG.DBURI)
+// require('./middleware/db')(CONFIG.DBURI)
 
 // allow requests from all origins
 app.use(cors())
@@ -27,7 +27,7 @@ app.use(requestLogger)
 app.get('/', (req, res) => {
   res.json({
     status: 'success',
-    message: 'Welcome to the Home Route of WeBlog API!',
+    message: 'Welcome to the Home Route of Article API!',
     README: 'https://github.com/Psalmzee/WeBlog-API/blob/main/README.md'
   })
 })
